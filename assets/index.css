@@ -455,7 +455,34 @@ body {
   line-height: 1.8;
   text-align: justify;
 }
+/*section-7*/
+.calender-circle {
+  border-radius: 30px;
+  width: 180px;
+  height: 40px;
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+  margin-top: 40px;
+ 
+}
 
+.calender-circle a {
+  padding-top:10px;
+  color: white;
+  margin-top: 10px;
+  margin-left: 5px;
+  text-decoration-line: none;
+}
+
+.calender-circle svg {
+  background-color: #d54d23;
+  border-radius: 50%;
+  max-height: 80%;
+  max-width: 20%;
+  color: aliceblue;
+}
 /*section-8*/
 
 .section-8{
@@ -808,7 +835,7 @@ body {
   }
 
   .calender-circle a {
-    padding:0px;
+    padding:10px;
     color: white;
     margin-top: 10px;
     margin-left: 5px;
@@ -1082,7 +1109,7 @@ body {
   }
 
   .calender-circle a {
-    padding: 0;
+    padding: 10px;
     color: white;
     margin-top: 10px;
     margin-left: 5px;
