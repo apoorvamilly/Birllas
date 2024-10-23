@@ -289,6 +289,7 @@ body {
   top: 10%;
   width: 70%;
   transform: translate(-50%);
+  text-align: center;
   
 }
 
@@ -520,6 +521,7 @@ body {
   flex-direction: column;
   justify-content: center;
   margin: 20px;
+  text-align: center;
 }
 
 
@@ -553,7 +555,7 @@ body {
   background-color: rgb(251, 217, 207);
   margin: 5px;
   border-radius: 10%;
-  width: 30%;
+  min-width: fit-content;
   align-items: center;
   justify-content: center;
   display: flex;
@@ -666,8 +668,14 @@ body {
 
 .banner-text-3-s {
   top: 10%;
-  left: 20%;
+  left: 50%;
   position: absolute;
+  transform: translateX(-50%);
+  text-align: center;
+}
+
+.banner-text-3-s h1{
+  font-size: 40px;
 }
 
 .section-9-2-s {
@@ -1015,6 +1023,11 @@ textarea {
   margin-top: 15%;
  }
 
+ /*section-9*/
+
+ .banner-text-3 h1{
+   font-size: 50px;
+ }
 }
 
 /*desktop-view*/
@@ -1025,6 +1038,7 @@ textarea {
     flex-direction: column;
     overflow-y: hidden;
     padding: 0px;
+    position: sticky;
   }
 
   .head1 {
@@ -1128,6 +1142,7 @@ textarea {
     display: flex;
     margin-right: 5%;
     margin-bottom: 40px;
+    justify-content: space-between;
   }
 
   .navbar a {
@@ -1691,6 +1706,10 @@ textarea {
     left:50%;
     transform: translateX(-50%);
     text-align: center;
+  }
+
+  .banner-text-3 h1{
+    font-size: 60px;
   }
 
 
