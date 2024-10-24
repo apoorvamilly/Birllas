@@ -127,7 +127,7 @@ body {
   flex-direction: row;
   font-size: medium;
   color: black;
-  width: 120px;
+  width: fit-content;
   background: white;
   padding: 5px 1px;
   font-weight: 800;
@@ -314,7 +314,8 @@ body {
 .play-button-s {
   position: absolute;
   top: 45%;
-  left: 35%;
+  left: 50%;
+  transform: translateX(-50%);
   height: 30%;
   background-color: #d54d23;
   border-radius: 50%;
@@ -558,6 +559,7 @@ body {
   min-width: fit-content;
   align-items: center;
   justify-content: center;
+  padding: 0px 5px;
   display: flex;
   height: 40px;
   font-weight: 700;
@@ -1061,6 +1063,8 @@ textarea {
   .menu {
     display: none;
   }
+
+  
   .cont1 {
     display: flex;
     color: darkgray;
